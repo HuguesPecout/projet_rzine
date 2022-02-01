@@ -1,0 +1,131 @@
+---
+title: <h1 class="first">Rzine</h1>
+author: <h2 class="place">Pour la diffusion et le partage de ressources<br>sur la pratique de R en sciences humaines et sociales</h2>
+date: <img src="figure/Rzine.png" width="240"/><br><p class="name">Hugues Pecout (FR CIST - CNRS)<br>Timothée Giraud (UMS RIATE - CNRS)</p><img src="figure/cnrs.png" width="80" style="float:left"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="80"/>
+output: 
+  revealjs::revealjs_presentation:
+    self_contained: FALSE
+    reveal_plugins: ["notes","zoom","menu"]
+    theme: "black"
+    highlight: "zenburn"
+    css: styles.css
+    incremental: TRUE
+    center: TRUE	
+    showNotes: FALSE
+    reveal_options:
+      help: true
+      controls: TRUE
+      progress: TRUE
+      controlsTutorial: TRUE
+      controlsLayout: "edges"
+      controlsBackArrows: "visible"
+      slideNumber: TRUE
+      hash: true
+      keyboard: true
+      overview: true
+      touch: true
+      navigationMode: "linear"
+      embedded: false
+      mouseWheel: true
+      hideInactiveCursor: true
+      hideAddressBar: true
+      previewLinks: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+# {data-background="figure/genese.png" data-background-size="400px"}
+
+
+<h3>**La génése...**</h3>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+## Les membres fondateurs
+
+<br>
+
+<img src="figure/core_team.png" width="700"/>
+
+
+>- Issues d'unités partenaire de la FR CIST
+>- De statuts différents
+
+
+<p>Mais avec une envie commune : travailler ensemble sur de la documentation sur R</p>
+
+Mais auusi science repo - Programmation lettré...
+
+## Un bilan de l'existant
+
+### Pour ne pas réinventer l'eau chaude
+
+<div id="left00">
+
+<p align="center">Les points forts</p>
+<ul class="xpucsmall">
+> - Une communauté très active
+> - Déjà beaucoup de documentation
+> - Plusieurs initiatives excellentes
+> - Un langage interdisciplinaire
+> - ... Mais que faire de plus ?
+</ul>
+
+</div>
+<div id="right00">
+
+<p align="center">Les points faibles</p>
+
+<ul class="xpucsmall">
+> - Beaucoup d'anglais
+> - Documentation parsemé, peu visible pour un novice
+> - Organisé par discipline, institutions, unité...
+> - Documentation généraliste vs spécialisée
+</ul>
+</div>
+
+
+## L'émergence de deux axes de travail 
+
+> - 1) Développement d'un agrégateur qualitatif de contenu
+
+> - 2) Création d'un collection de documentation innovante
+
+
+
+# {data-background="figure/rzine_logo_bis.png" data-background-size="300px"}
+
+
+<h3>**Rzine.fr**</h3>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+## Collection au format de publication notebook
+
+
+
