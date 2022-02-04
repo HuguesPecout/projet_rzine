@@ -38,7 +38,7 @@ editor_options:
 # {data-background="figure/genese.png" data-background-size="400px"}
 
 
-<h3>**La génése...**</h3>
+<h2>**Genèse du projet**</h2>
 
 <br>
 <br>
@@ -50,66 +50,74 @@ editor_options:
 <br>
 <br>
 <br>
-
-
-
-
-## Les membres fondateurs
-
 <br>
 
-<img src="figure/core_team.png" width="700"/>
 
 
->- Issues d'unités partenaire de la FR CIST
->- De statuts différents
+
+## Projet exploratoire de la FR CIST
 
 
-<p>Mais avec une envie commune : travailler ensemble sur de la documentation sur R</p>
+<p class="smallpcenter" style="margin-top:30px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : travailler ensemble, sur R !</p> 
 
-Mais auusi science repo - Programmation lettré...
+<img src="figure/core_team.png" width="750"/ style="margin-top:30px;margin-bottom:25px;">
 
-## Un bilan de l'existant
 
-### Pour ne pas réinventer l'eau chaude
+<p class="medpcenter">**Objectif :** <span style="color:#4178bc;">Contribuer à l'apprentissage et à la pratique de R en SHS, en favorisant le partage, la production et la diffusion de ressources.</span></p>
 
-<div id="left00">
 
-<p align="center">Les points forts</p>
+## Faire le Bilan pour innover
+
+<p class="medpcenter">Communauté d'utilisateur.rice.s et ressources disponibles sur R ?</p>
+
+<img src="figure/weakness_strength.jpg" width="500"/ style="margin-top:15px;margin-bottom:0px;">
+
+<div id="left">
+<p class="smallpcenter" style="margin-top:0px;">Points forts</p>
 <ul class="xpucsmall">
-> - Une communauté très active
-> - Déjà beaucoup de documentation
-> - Plusieurs initiatives excellentes
-> - Un langage interdisciplinaire
-> - ... Mais que faire de plus ?
+> - Communauté internationale très active
+> - Communauté française importante
+> - Langage commun à plusieurs disciplines
+> - Énormément de ressources libres
+> - Plusieurs bonnes initiatives existent déjà
 </ul>
 
+
 </div>
-<div id="right00">
-
-<p align="center">Les points faibles</p>
-
+<div id="right">
+<p class="smallpcenter" style="margin-top:0px;">Points d'amélioration</p>
 <ul class="xpucsmall">
-> - Beaucoup d'anglais
-> - Documentation parsemé, peu visible pour un novice
-> - Organisé par discipline, institutions, unité...
-> - Documentation généraliste vs spécialisée
+> - Ressources parsemées et peu visibles
+> - Beaucoup des ressources en anglais
+> - Cloisonnée par discipline, institutions...
+> - Ressources généralistes vs spécialisées
 </ul>
 </div>
 
 
-## L'émergence de deux axes de travail 
+## émergence de deux axes
 
-> - 1) Développement d'un agrégateur qualitatif de contenu
 
-> - 2) Création d'un collection de documentation innovante
+
+<div id="left">
+<p class="moyp3" style="margin-top:0px;">Prendre en compte l'existant...</p>
+<img src="figure/rzine1.png" width="200"/ style="margin-top:30px;margin-bottom:25px;">
+<p style="margin-top:0px;"><span style="color:#4178bc;">**Rzine.fr**</span></p>
+</div>
+
+<div id="right">
+<p class="moyp3" style="margin-top:0px;">...Participer à la production</p>
+<img src="figure/rzine2.png" width="200"/ style="margin-top:30px;margin-bottom:25px;">
+<p style="margin-top:0px;"><span style="color:#4178bc;">**Collection Rzine**</span></p>
+</div>
+
 
 
 
 # {data-background="figure/rzine_logo_bis.png" data-background-size="300px"}
 
 
-<h3>**Rzine.fr**</h3>
+<h2>**Rzine.fr**</h2>
 
 <br>
 <br>
