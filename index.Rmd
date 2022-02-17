@@ -131,9 +131,65 @@ editor_options:
 <br>
 
 
+## Site web statique R
+
+## 4 types de contenu
+
+## + de 300 ressources !
+
+## Plateforme participative
+
+## Comité éditorial
 
 
-## Collection au format de publication notebook
+# {data-background="figure/Rzine.png" data-background-size="300px"}
+
+
+<h2>**Collection Rzine**</h2>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## Valoriser et partager son code
+
+## Ouvert à tou.te.s
+
+## Le format Notebook
+
+## Processus Git
+
+## Comité de lecture 
+
+
+
+
+# {data-background="figure/Rzine.png" data-background-size="300px"}
+
+
+<h2>**Publier une Fiche ?**</h2>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## Documentation et contact
+
+## Les premières fiches 
 
 
 
