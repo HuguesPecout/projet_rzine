@@ -141,6 +141,8 @@ editor_options:
 
 ## Comité éditorial
 
+<img src="figure/core_team_full.png" width="750"/ style="margin-top:30px;margin-bottom:25px;">
+
 
 # {data-background="figure/Rzine.png" data-background-size="300px"}
 
