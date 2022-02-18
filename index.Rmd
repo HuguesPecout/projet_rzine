@@ -12,6 +12,7 @@ output:
     incremental: TRUE
     center: TRUE	
     showNotes: FALSE
+    transition: fade
     reveal_options:
       help: true
       controls: TRUE
@@ -33,6 +34,9 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
+
+
+
 
 
 # {data-background="figure/genese.png" data-background-size="400px"}
@@ -57,10 +61,9 @@ editor_options:
 
 ## Projet exploratoire de la FR CIST
 
+<p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : travailler ensemble, sur R !</p> 
 
-<p class="smallpcenter" style="margin-top:30px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : travailler ensemble, sur R !</p> 
-
-<img src="figure/core_team.png" width="750"/ style="margin-top:30px;margin-bottom:25px;">
+<img src="figure/core_team.png" width="650"/ style="margin-top:40px;margin-bottom:25px;">
 
 
 <p class="medpcenter">**Objectif :** <span style="color:#4178bc;">Contribuer à l'apprentissage et à la pratique de R en SHS, en favorisant le partage, la production et la diffusion de ressources.</span></p>
@@ -95,7 +98,7 @@ editor_options:
 </div>
 
 
-## émergence de deux axes
+## Deux axes de travail
 
 
 
@@ -111,6 +114,12 @@ editor_options:
 <p style="margin-top:0px;"><span style="color:#4178bc;">**Collection Rzine**</span></p>
 </div>
 
+
+## Du renfort
+
+<p class="moyp3" style="margin-top:0px;">5 ingénieur·e·s ont rejoint le projet Rzine</p>
+
+<img src="figure/core_team_full.png" width="750"/ style="margin-top:50px;margin-bottom:25px;">
 
 
 
@@ -141,7 +150,7 @@ editor_options:
 
 ## Comité éditorial
 
-<img src="figure/core_team_full.png" width="750"/ style="margin-top:30px;margin-bottom:25px;">
+
 
 
 # {data-background="figure/Rzine.png" data-background-size="300px"}
@@ -189,9 +198,30 @@ editor_options:
 <br>
 <br>
 
+
+# Orga et futur
+
+
+## Une organisation au fil de l'eau
+
+
+<img src="figure/organisation.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+
+
+## Une organisation au fil de l'eau
+
+
+<img src="figure/organisation1.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+
+
+## Une organisation au fil de l'eau
+
+
+<img src="figure/organisation2.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+
+
+
+
 ## Documentation et contact
 
 ## Les premières fiches 
-
-
-
