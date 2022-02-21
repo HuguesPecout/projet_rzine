@@ -63,7 +63,7 @@ editor_options:
 
 <p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : travailler ensemble, sur R !</p> 
 
-<img src="figure/core_team.png" width="650"/ style="margin-top:40px;margin-bottom:25px;">
+<img src="figure/core_team.png" width="600"/ style="margin-top:40px;margin-bottom:25px;">
 
 
 <p class="medpcenter">**Objectif :** <span style="color:#4178bc;">Contribuer à l'apprentissage et à la pratique de R en SHS, en favorisant le partage, la production et la diffusion de ressources.</span></p>
@@ -109,7 +109,7 @@ editor_options:
 </div>
 
 <div id="right">
-<p class="moyp3" style="margin-top:0px;">...Participer à la production</p>
+<p class="moyp3" style="margin-top:0px;">...Favoriser la production</p>
 <img src="figure/rzine2.png" width="200"/ style="margin-top:30px;margin-bottom:25px;">
 <p style="margin-top:0px;"><span style="color:#4178bc;">**Collection Rzine**</span></p>
 </div>
@@ -119,7 +119,25 @@ editor_options:
 
 <p class="moyp3" style="margin-top:0px;">5 ingénieur·e·s ont rejoint le projet Rzine</p>
 
-<img src="figure/core_team_full.png" width="750"/ style="margin-top:50px;margin-bottom:25px;">
+<img src="figure/core_team_full.png" width="700"/ style="margin-top:50px;margin-bottom:25px;">
+
+
+## Un fonctionnement en construction
+
+
+<img src="figure/organisation.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+
+
+## Un fonctionnement en construction
+
+
+<img src="figure/organisation1.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+
+
+## Un fonctionnement en construction
+
+
+<img src="figure/organisation2.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
 
 
 
@@ -140,13 +158,29 @@ editor_options:
 <br>
 
 
-## Site web statique R
+## Un site fait avec R
 
-## 4 types de contenu
+</br>
+
+> - <img src="figure/blogdown.png" width="35"/ style="margin-top:0px;margin-bottom:-10px;"> Construit avec le package [blogdown](https://bookdown.org/yihui/blogdown/)
+> - <img src="figure/hugo.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;"> Site web statique [HUGO](https://gohugo.io/), thème [Academic](https://academic-demo.netlify.app/)
+> - <img src="figure/gitlab2.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;"> Code source mis à disposition sur le [Gitlab Huma-Num]( https://gitlab.huma-num.fr/rzine/site) 
+> - <img src="figure/mit.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;"> Code source sous licence [MIT](https://opensource.org/licenses/MIT)
+
+</br>
+
+Un nom de domaine qui appartient au <img src="figure/cnrs.png" width="80"/ style="margin-top:0px;margin-bottom:-33px;">
+ 
+Un site hébergé par <img src="figure/rouen.jpg" width="150"/ style="margin-top:0px;margin-bottom:-15px;"> 
+
+
+
+## 4 Types de contenu participatifs
 
 ## + de 300 ressources !
 
 ## Plateforme participative
+
 
 ## Comité éditorial
 
@@ -198,26 +232,6 @@ editor_options:
 <br>
 <br>
 
-
-# Orga et futur
-
-
-## Une organisation au fil de l'eau
-
-
-<img src="figure/organisation.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
-
-
-## Une organisation au fil de l'eau
-
-
-<img src="figure/organisation1.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
-
-
-## Une organisation au fil de l'eau
-
-
-<img src="figure/organisation2.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
 
 
 
