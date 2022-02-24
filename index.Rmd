@@ -146,7 +146,7 @@ editor_options:
 
 <h2>**Rzine.fr**</h2>
 
-<br>
+
 <br>
 <br>
 <br>
@@ -157,32 +157,67 @@ editor_options:
 <br>
 <br>
 
+<h3>Valoriser et partager l'existant...</h3>
 
-## Un site fait avec R
+## Rzine.fr
+
+
+<p class="moyp3" style="margin-top:35px;">**Construit avec R :**</p>
+
+<ul class="pucsmall">
+> - Utilisation du package [blogdown <img src="figure/blogdown.png" width="35"/ style="margin-top:0px;margin-bottom:-10px;">](https://bookdown.org/yihui/blogdown/)  
+> - Site web statique [<img src="figure/hugo.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;">](https://gohugo.io/) , thème [Academic](https://academic-demo.netlify.app/)
+</ul>
+
+
+<p class="moyp3" style="margin-top:60px;">**Libre et public :**</p>
+
+<ul class="pucsmall">
+> - Code source stocké et partagé sur le [<img src="figure/gitlab2.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;">](https://gitlab.huma-num.fr/rzine/site) de [<img src="figure/humanum.png" width="180"/ style="margin-top:0px;margin-bottom:-12px;">](https://gitlab.huma-num.fr/rzine/site)
+> - Code source sous licence [<img src="figure/mit.png" width="45"/ style="margin-top:0px;margin-bottom:-12px;">](https://opensource.org/licenses/MIT)  
+> - Un nom de domaine qui appartient au <img src="figure/cnrs.png" width="60"/ style="margin-top:0px;margin-bottom:-24px;">
+> - Site hébergé par l'université <img src="figure/rouen.jpg" width="120"/ style="margin-top:5px;margin-bottom:-10px;">
+</ul>
+
+
+## 4 types de contenu 
+
+Pour dessiner les contours de la pratique de R en SHS
 
 </br>
 
-> - <img src="figure/blogdown.png" width="35"/ style="margin-top:0px;margin-bottom:-10px;"> Construit avec le package [blogdown](https://bookdown.org/yihui/blogdown/)
-> - <img src="figure/hugo.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;"> Site web statique [HUGO](https://gohugo.io/), thème [Academic](https://academic-demo.netlify.app/)
-> - <img src="figure/gitlab2.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;"> Code source mis à disposition sur le [Gitlab Huma-Num]( https://gitlab.huma-num.fr/rzine/site) 
-> - <img src="figure/mit.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;"> Code source sous licence [MIT](https://opensource.org/licenses/MIT)
+
+
+> - Des [actualités](https://rzine.fr/communaute/#posts)
+> - Des [initiatives & projets](https://rzine.fr/communaute/#projects)
+> - Des [auteur.e.s](https://rzine.fr/communaute/#people)
+> - Des [ressources](https://rzine.fr/publication/)
+
+
 
 </br>
 
-Un nom de domaine qui appartient au <img src="figure/cnrs.png" width="80"/ style="margin-top:0px;margin-bottom:-33px;">
- 
-Un site hébergé par <img src="figure/rouen.jpg" width="150"/ style="margin-top:0px;margin-bottom:-15px;"> 
+L'ajout de contenu est participatif...
 
+contact@rzine.fr
 
-
-## 4 Types de contenu participatifs
-
-## + de 300 ressources !
 
 ## Plateforme participative
 
+<img src="figure/How_works_Rzine.png" width="600"/>
 
-## Comité éditorial
+
+## Gestion collectif du contenu
+
+
+## + de 300 [ressources](https://rzine.fr/publication/)
+
+<img src="figure/ressources.png" width="700"/>
+
+<p class="moyp" style="margin-top:10px;">**Requêtables par thématique, type, source, langue, date...**</p>
+
+
+
 
 
 
@@ -201,9 +236,14 @@ Un site hébergé par <img src="figure/rouen.jpg" width="150"/ style="margin-top
 <br>
 <br>
 <br>
-<br>
+
+<h3>Favoriser la production...</h3>
 
 ## Valoriser et partager son code
+
+
+<p class="medpcenter">**Objectif secondaire :** <span style="color:#4178bc;">Contribuer à la montée en compétence en matière de programmation lettrée, de reproductibilité et d'utilisation des logiciels décentralisé de versionnage (ex : Git).</span></p>
+
 
 ## Ouvert à tou.te.s
 
