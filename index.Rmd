@@ -1,7 +1,7 @@
 ---
 title: <h1 class="first">Rzine</h1>
 author: <h2 class="place">Pour la diffusion et le partage de ressources<br>sur la pratique de R en sciences humaines et sociales</h2>
-date: <img src="figure/Rzine.png" width="240"/><br><p class="name">Hugues Pecout (FR CIST - CNRS)<br>Timothée Giraud (UMS RIATE - CNRS)</p><img src="figure/cnrs.png" width="80" style="float:left"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="80"/>
+date: <img src="figure/Rzine.png" width="240" style="margin-bottom:0px;"/><h2 class="place2"><i>Journées annuelles du réseau Mate-SHS, 16 mai 2022</i></h2><p class="name">Hugues Pecout - Timothée Giraud</p><img src="figure/riate.png" width="115" style="float:left;margin-top:40px;"/><img src="figure/cnrs.png" width="70" style="float:center"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="70"/>
 output: 
   revealjs::revealjs_presentation:
     self_contained: FALSE
@@ -54,7 +54,7 @@ editor_options:
 <br>
 <br>
 <br>
-<br>
+
 
 
 
@@ -101,6 +101,7 @@ editor_options:
 ## Deux axes de travail
 
 
+</br>
 
 <div id="left">
 <p class="moyp3" style="margin-top:0px;">Prendre en compte l'existant...</p>
@@ -155,7 +156,6 @@ editor_options:
 <br>
 <br>
 <br>
-<br>
 
 <h3>Valoriser et partager l'existant...</h3>
 
@@ -170,7 +170,7 @@ editor_options:
 </ul>
 
 
-<p class="moyp3" style="margin-top:60px;">**Libre et public :**</p>
+<p class="moyp3" style="margin-top:60px;">**Libre :**</p>
 
 <ul class="pucsmall">
 > - Code source stocké et partagé sur le [<img src="figure/gitlab2.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;">](https://gitlab.huma-num.fr/rzine/site) de [<img src="figure/humanum.png" width="180"/ style="margin-top:0px;margin-bottom:-12px;">](https://gitlab.huma-num.fr/rzine/site)
@@ -182,42 +182,37 @@ editor_options:
 
 ## 4 types de contenu 
 
-Pour dessiner les contours de la pratique de R en SHS
-
-</br>
+<p style="margin-top:30px;margin-bottom:40px;"> Qui dessine les contours de la pratique de R en SHS</p> 
 
 
+<div id="leftbg">
+<img src="figure/rzinefr.png" width="560"/>
 
-> - Des [actualités](https://rzine.fr/communaute/#posts)
-> - Des [initiatives & projets](https://rzine.fr/communaute/#projects)
-> - Des [auteur.e.s](https://rzine.fr/communaute/#people)
-> - Des [ressources](https://rzine.fr/publication/)
+</div>
 
-
-
-</br>
-
-L'ajout de contenu est participatif...
-
-contact@rzine.fr
-
-
-## Plateforme participative
-
-<img src="figure/How_works_Rzine.png" width="600"/>
+<div id="rightbg">
+<ul style="margin-top:60px;margin-bottom:65px;">
+> - Des [actualités](https://rzine.fr/communaute/#posts)   
+> - Des [projets](https://rzine.fr/communaute/#projects)   
+> - Des [auteur.e.s](https://rzine.fr/communaute/#people)  
+> - Des [ressources](https://rzine.fr/publication/)   
+</ul>
 
 
-## Gestion collectif du contenu
-
-
-## + de 300 [ressources](https://rzine.fr/publication/)
-
-<img src="figure/ressources.png" width="700"/>
-
-<p class="moyp" style="margin-top:10px;">**Requêtables par thématique, type, source, langue, date...**</p>
+<p style="text-align:center;">Signalement :</br>contact@rzine.fr</p>
 
 
 
+</div>
+
+
+## + de 300 [ressources](https://rzine.fr/publication/) 
+
+<img src="figure/ressources.png" width="800"/>
+
+## Site statique et participatif
+
+<img src="figure/How_works_Rzine.png" style="margin-top:40px;" width="750"/>
 
 
 
@@ -227,7 +222,6 @@ contact@rzine.fr
 
 <h2>**Collection Rzine**</h2>
 
-<br>
 <br>
 <br>
 <br>
@@ -261,7 +255,6 @@ contact@rzine.fr
 
 <h2>**Publier une Fiche ?**</h2>
 
-<br>
 <br>
 <br>
 <br>

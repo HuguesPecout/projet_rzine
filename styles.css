@@ -1,11 +1,23 @@
 
 .reveal .slides .title { 
   font-size: 180%; 
+
 }
 
 .reveal .slides .place { 
      text-transform : none;
-     font-size: 85%; 
+     font-size: 80%; 
+     margin-top:0px;
+
+}
+
+.reveal .slides .place2 { 
+     text-transform : none;
+     font-size: 65%; 
+     color: #4178bc;
+     margin-top:0px;
+     margin-bottom:0px;
+
 }
 
 .reveal .slides .author { 
@@ -20,17 +32,20 @@
 
 
 .reveal .slides .name { 
-  font-size: 55%; 
+  font-size: 52%; 
       color: white; 
+      margin-bottom: 15px;
 }
 
 .reveal .slides .first { 
   font-size: 180%; 
-      color: #4178bc; 
+  color: #4178bc; 
+  margin-bottom:0px;
 }
 
 .reveal .slides h2 { 
-  font-size: 130%; 
+  font-size: 110%; 
+  
 }
 
 .reveal .slides h3 {
@@ -335,6 +350,20 @@ p,ul,li,td {
   width:32.5%;
 }
 
+
+
+#leftbg {
+  text-align: center;
+  float: left;
+  width:63%;
+}
+
+
+#rightbg {
+  float: right;
+  text-align: center;
+  width:36%;
+}
 
 
 #left {
