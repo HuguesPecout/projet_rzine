@@ -61,12 +61,11 @@ editor_options:
 
 ## Projet exploratoire de la FR CIST
 
-<p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : travailler ensemble, sur R !</p> 
+<p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : **produire sur de la documentation sur R**.</p> 
 
 <img src="figure/core_team.png" width="600"/ style="margin-top:40px;margin-bottom:25px;">
 
-
-<p class="medpcenter">**Objectif :** <span style="color:#4178bc;">Contribuer à l'apprentissage et à la pratique de R en SHS, en favorisant le partage, la production et la diffusion de ressources.</span></p>
+<p class="fragment" style="font-size:80%;">**Objectif :** <span style="color:#4178bc;">Contribuer à l'apprentissage et à la pratique de R en SHS, en favorisant le partage, la production et la diffusion de ressources.</span></p>
 
 
 ## Faire le Bilan pour innover
@@ -81,8 +80,8 @@ editor_options:
 > - Communauté internationale très active
 > - Communauté française importante
 > - Langage commun à plusieurs disciplines
-> - Énormément de ressources libres
-> - Plusieurs bonnes initiatives existent déjà
+> - Beaucoup de ressources en libre accès
+> - De très bonnes initiatives existent déjà
 </ul>
 
 
@@ -98,7 +97,7 @@ editor_options:
 </div>
 
 
-## Deux axes de travail
+## Emergence de deux axes
 
 
 </br>
@@ -120,22 +119,22 @@ editor_options:
 
 <p class="moyp3" style="margin-top:0px;">5 ingénieur·e·s ont rejoint le projet Rzine</p>
 
-<img src="figure/core_team_full.png" width="700"/ style="margin-top:50px;margin-bottom:25px;">
+<img src="figure/core_team_full.png" width="650"/ style="margin-top:50px;margin-bottom:25px;">
 
 
-## Un fonctionnement en construction
+## Organisation
 
 
 <img src="figure/organisation.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
 
 
-## Un fonctionnement en construction
+## Organisation
 
 
 <img src="figure/organisation1.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
 
 
-## Un fonctionnement en construction
+## Organisation
 
 
 <img src="figure/organisation2.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
@@ -162,23 +161,38 @@ editor_options:
 ## Rzine.fr
 
 
-<p class="moyp3" style="margin-top:35px;">**Construit avec R :**</p>
+<div>
+<div id="left3">
+<img src="figure/R.png" width="195"/ style="margin-top:0px;">
+</div>
 
-<ul class="pucsmall">
+
+<div id="right33" style="margin-top:0px;">
+<p style="margin-left:20px;"><span style="color:#4178bc;">Construit avec R :</span></p>
+<ul class="pucsmall0">
 > - Utilisation du package [blogdown <img src="figure/blogdown.png" width="35"/ style="margin-top:0px;margin-bottom:-10px;">](https://bookdown.org/yihui/blogdown/)  
 > - Site web statique [<img src="figure/hugo.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;">](https://gohugo.io/) , thème [Academic](https://academic-demo.netlify.app/)
 </ul>
+</br>
 
+</div>
+</div>
 
-<p class="moyp3" style="margin-top:60px;">**Libre :**</p>
+</br>
 
+<div id="left3">
+<img src="figure/Open_Source.png" width="160"/ style="margin-top:50px;">
+</div>
+
+<div id="right33" style="margin-top:00px;">
+<p style="margin-left:20px;"><span style="color:#4178bc;">Et libre !</span></p>  
 <ul class="pucsmall">
-> - Code source stocké et partagé sur le [<img src="figure/gitlab2.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;">](https://gitlab.huma-num.fr/rzine/site) de [<img src="figure/humanum.png" width="180"/ style="margin-top:0px;margin-bottom:-12px;">](https://gitlab.huma-num.fr/rzine/site)
+> - Code source partagé sur le [<img src="figure/gitlab2.png" width="40"/ style="margin-top:0px;margin-bottom:-10px;">](https://gitlab.huma-num.fr/rzine/site) de [<img src="figure/humanum.png" width="180"/ style="margin-top:0px;margin-bottom:-12px;">](https://gitlab.huma-num.fr/rzine/site)
 > - Code source sous licence [<img src="figure/mit.png" width="45"/ style="margin-top:0px;margin-bottom:-12px;">](https://opensource.org/licenses/MIT)  
 > - Un nom de domaine qui appartient au <img src="figure/cnrs.png" width="60"/ style="margin-top:0px;margin-bottom:-24px;">
 > - Site hébergé par l'université <img src="figure/rouen.jpg" width="120"/ style="margin-top:5px;margin-bottom:-10px;">
 </ul>
-
+</div>
 
 ## 4 types de contenu 
 
@@ -220,7 +234,7 @@ editor_options:
 # {data-background="figure/Rzine.png" data-background-size="300px"}
 
 
-<h2>**Collection Rzine**</h2>
+<h2>**La collection Rzine**</h2>
 
 <br>
 <br>
@@ -233,20 +247,24 @@ editor_options:
 
 <h3>Favoriser la production...</h3>
 
-## Valoriser et partager son code
+## Objectifs
+
+</br>
+
+<p class="medpcenter">I) <span style="color:#4178bc;">**Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser son code.</span></p>
+
+</br>
+
+<p class="medpcenter">II) <span style="color:#4178bc;">**Contribuer à la montée en compétence** en matière de programmation lettrée, d'utilisation des logiciels décentralisé de versionnage et de reproductibilité.</span></p>
 
 
-<p class="medpcenter">**Objectif secondaire :** <span style="color:#4178bc;">Contribuer à la montée en compétence en matière de programmation lettrée, de reproductibilité et d'utilisation des logiciels décentralisé de versionnage (ex : Git).</span></p>
+## Format de publication
 
+illustration notebook
 
-## Ouvert à tou.te.s
+## Exemple
 
-## Le format Notebook
-
-## Processus Git
-
-## Comité de lecture 
-
+4 publi déjà...
 
 
 
@@ -266,9 +284,41 @@ editor_options:
 <br>
 
 
+## package Rzine
+
+Un template rmarkdown + doc
+
+## Documentation
+
+## Processus Git
+
+## Contact
+
+Auteur/relecteur et Plus si affinités
 
 
 
-## Documentation et contact
+## Diapositives libres (CC BY 3.0)
 
-## Les premières fiches 
+
+<br>
+
+
+<p class="moyp">Consultation :</p>
+
+<p class="moyp222">https://hpecout.gitpages.huma-num.fr/Intro_R_Rstudio_FR/</p>
+
+
+
+
+<br>
+
+<p class="moyp">Code source :</p>
+
+<p class="moyp222">https://gitlab.huma-num.fr/hpecout/Intro_R_Rstudio_FR</p>
+
+
+<br>
+
+
+

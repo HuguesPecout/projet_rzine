@@ -67,6 +67,10 @@ p,ul,li,td {
  }
  
 
+.reveal .slides .pucsmall0 {
+	font-size: 0.9em;
+}
+
 .reveal .slides .pucsmall {
 	font-size: 0.8em;
 }
@@ -401,9 +405,15 @@ p,ul,li,td {
   text-align: center;
   padding: 20px 0;
   float: left;
-  width:25%;
+  width:20%;
 }
 
+#right33 {
+  text-align: left;
+  padding: 0px 0;
+  float: right;
+  width:77%;
+}
 
 #center2 {
   float: left;
