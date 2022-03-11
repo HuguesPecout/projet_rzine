@@ -51,7 +51,7 @@ editor_options:
 <br>
 <br>
 <br>
-<br>
+<br><span style="color:#4178bc;">
 <br>
 <br>
 
@@ -97,7 +97,7 @@ editor_options:
 </div>
 
 
-## Emergence de deux axes
+## Émergence de deux axes
 
 
 </br>
@@ -196,7 +196,7 @@ editor_options:
 
 ## 4 types de contenu 
 
-<p style="margin-top:30px;margin-bottom:40px;"> Qui dessine les contours de la pratique de R en SHS</p> 
+<p style="margin-top:30px;margin-bottom:0px;font-size:90%;"> Qui dessinent les contours de la pratique de R en SHS</p> 
 
 
 <div id="leftbg">
@@ -205,7 +205,7 @@ editor_options:
 </div>
 
 <div id="rightbg">
-<ul style="margin-top:60px;margin-bottom:65px;">
+<ul style="margin-top:60px;margin-bottom:45px;">
 > - Des [actualités](https://rzine.fr/communaute/#posts)   
 > - Des [projets](https://rzine.fr/communaute/#projects)   
 > - Des [auteur.e.s](https://rzine.fr/communaute/#people)  
@@ -245,27 +245,74 @@ editor_options:
 <br>
 <br>
 
-<h3>Favoriser la production...</h3>
+<p class="smallpcenter">« *Partager ses analyses reproductibles dans un périmètre pluridisciplinaire large</br> et dans le cadre d'une publication valorisée* »</p>
 
 ## Objectifs
 
+
+<p class="fragment" style="font-size:85%;margin-top:60px;"><span style="color:#4178bc;">**1.**</span> **Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser son code.</p>
+
+<p class="fragment" style="font-size:85%;margin-top:60px;"><span style="color:#4178bc;">**2.**</span> **Contribuer à l'apprentissage de R**.</p>
+
+<p class="fragment" style="font-size:85%;margin-top:60px;"><span style="color:#4178bc;">**3.**</span> **Contribuer à la démocratisation de l'utilisation du notebook**.</p>
+
+<p class="fragment" style="font-size:85%;margin-top:60px;"><span style="color:#4178bc;">**4.**</span> **Contribuer à la montée en compétence** en matière de programmation lettrée, d'utilisation des logiciels décentralisé de versionnage et de reproductibilité.</p>
+
+
+## Caractèristiques
+
 </br>
 
-<p class="medpcenter">I) <span style="color:#4178bc;">**Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser son code.</span></p>
+<ul class="pucsmall">
+> - Collection <span style="color:#4178bc;">**ouverte à tou·te·s**</span>
+> - Format de publication <span style="color:#4178bc;">**notebook**</span> (Rmarkdown)
+> - Publications <span style="color:#4178bc;">**soumises à comité de lecture**</span>
+> - Processus de <span style="color:#4178bc;">**relecture transparent sur GitHub/GitLab**</span>
+> - Publications <span style="color:#4178bc;">**open source**</span> (licences MIT & CC BY-SA 4.0)
+> - Informations + données nécessaires à la <span style="color:#4178bc;">**reproductibilité**</span> fournies
+> - Publications valorisées (dépôt d'un <span style="color:#4178bc;">**DOI**</span>, référencement sur HAL)
+</ul>
 
-</br>
+## Publication Notebook (Rmarkdown)
 
-<p class="medpcenter">II) <span style="color:#4178bc;">**Contribuer à la montée en compétence** en matière de programmation lettrée, d'utilisation des logiciels décentralisé de versionnage et de reproductibilité.</span></p>
+<img src="figure/notebook.png" style="margin-top:40px;" width="750"/>
+
+## Exemple Rmarkdown
+
+<div id="codermd">
+
+<p class="smallpcenter">Fichier Rmarkdown (source) :</p>
+
+```{r, file = 'figure/ex2.Rmd', eval=FALSE}
+```
+</div>
+
+<div id="codehtml">
+
+<p class="smallpcenter">Fichier HTML (sortie) :</p>
+
+![](figure/markdown.png)
+</div>
+
+## Fiche Rzine (= Rmarkdown)
+
+![](figure/figure_3.png)
+
+## Fiche Rzine (= Rmarkdown)
+
+<img src="figure/figure_5.png" alt="drawing" style="width:800px;"/>
 
 
-## Format de publication
+## Fiche Rzine
 
-illustration notebook
+Quatre fiches déjà publiées :
 
-## Exemple
-
-4 publi déjà...
-
+<ul class="xpucsmall">
+> - <a href="https://rzine.fr/docs/20211101_ysebaert_grasland_MTA/index.html">Analyse territoriale multiscalaire</a>, *Ronan Ysebaert* et *Claude Grasland*.
+> - <a href="https://rzine.fr/docs/20191125_ironcurtain/index.html">Le nouveau rideau de fer : un exemple de carte en 2,5D</a>, *Nicolas Lambert*.
+> - <a href="https://rzine.fr/docs/20200526_glecampion_initiation_aux_correlations/index.html">Analyse des corrélations avec easystats</a>, *Grégoire Le Campion*.
+- <a href="https://rzine.fr/docs/20200601_mletexier86_explo_spatiotemporel/index.html" target="_blank">Exploration spatio-temporelle d’objets géographiques ponctuels</a>, *Marion Le Texier*.
+</ul>
 
 
 # {data-background="figure/Rzine.png" data-background-size="300px"}
@@ -284,11 +331,16 @@ illustration notebook
 <br>
 
 
+
+
+## Documentation
+
+
 ## package Rzine
 
 Un template rmarkdown + doc
 
-## Documentation
+
 
 ## Processus Git
 
