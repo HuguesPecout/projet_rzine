@@ -408,6 +408,21 @@ p,ul,li,td {
   width:20%;
 }
 
+#left4 {
+  text-align: center;
+  padding: 0px 0;
+  float: left;
+  width:35%;
+}
+
+#righ4 {
+  text-align: left;
+  float: right;
+  width:65%;
+}
+
+
+
 #right33 {
   text-align: left;
   padding: 0px 0;
