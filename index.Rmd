@@ -1,7 +1,7 @@
 ---
 title: <h1 class="first">Rzine</h1>
 author: <h2 class="place">Pour la diffusion et le partage de ressources<br>sur la pratique de R en sciences humaines et sociales</h2>
-date: <img src="figure/Rzine.png" width="240" style="margin-bottom:0px;"/><h2 class="place2"><i>Journées annuelles du réseau Mate-SHS, 16 mai 2022</i></h2><p class="name">Hugues Pecout - Timothée Giraud</p><img src="figure/riate.png" width="115" style="float:left;margin-top:40px;"/><img src="figure/cnrs.png" width="70" style="float:center"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="70"/>
+date: <img src="figure/Rzine.png" width="240" style="margin-bottom:0px;"/><h2 class="place2"><i>Midis de Géotéca - 12 Avril 2022</i></h2><p class="name">Hugues Pecout - Timothée Giraud</p><img src="figure/riate.png" width="115" style="float:left;margin-top:40px;"/><img src="figure/cnrs.png" width="70" style="float:center"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="70"/>
 output: 
   revealjs::revealjs_presentation:
     self_contained: FALSE
@@ -70,7 +70,7 @@ editor_options:
 
 ## Faire le Bilan pour innover
 
-<p class="medpcenter">Communauté d'utilisateur.rice.s et ressources disponibles sur R ?</p>
+<p class="medpcenter" style="margin-top:50px;">Communauté d'utilisateur.rice.s et ressources disponibles sur R ?</p>
 
 <img src="figure/weakness_strength.jpg" width="500"/ style="margin-top:15px;margin-bottom:0px;">
 
@@ -100,18 +100,20 @@ editor_options:
 ## Émergence de deux axes de travail
 
 
-</br>
+
 
 <div id="left">
-<p class="moyp3" style="margin-top:0px;">Prendre en compte l'existant</p>
+<p class="moyp3" style="margin-top:50px;">Prendre en compte l'existant</p>
 <img src="figure/rzine1.png" width="200"/ style="margin-top:30px;margin-bottom:25px;">
-<p style="margin-top:0px;"><span style="color:#4178bc;">**Rzine.fr**</span></p>
+<p style="margin-top:0px;"><span style="color:#4178bc;"><a href="https://rzine.fr/">**Rzine.fr**</a></span></p>
 </div>
 
+
+
 <div id="right">
-<p class="moyp3" style="margin-top:0px;">Favoriser la production</p>
+<p class="moyp3" style="margin-top:50px;">Favoriser la production</p>
 <img src="figure/rzine2.png" width="200"/ style="margin-top:30px;margin-bottom:25px;">
-<p style="margin-top:0px;"><span style="color:#4178bc;">**Collection Rzine**</span></p>
+<p style="margin-top:0px;"><span style="color:#4178bc;"><a href="https://rzine.fr/collection/#collection">**Collection Rzine**</a></span></p>
 </div>
 
 
@@ -125,19 +127,19 @@ editor_options:
 ## Organisation
 
 
-<img src="figure/organisation.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+<img src="figure/organisation.png" width="750"/ style="margin-top:30px;margin-bottom:25px;">
 
 
 ## Organisation
 
 
-<img src="figure/organisation1.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+<img src="figure/organisation1.png" width="750"/ style="margin-top:30px;margin-bottom:25px;">
 
 
 ## Organisation
 
 
-<img src="figure/organisation2.png" width="750"/ style="margin-top:20px;margin-bottom:25px;">
+<img src="figure/organisation2.png" width="750"/ style="margin-top:30px;margin-bottom:25px;">
 
 
 
@@ -253,7 +255,7 @@ editor_options:
 <p class="smallpcenter">*Partager des méthodes et analyses reproductibles réalisées avec R*</p>
 
 
-## Pourquoi faire ?
+## Pour quoi faire ?
 
 
 <p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**1.**</span> **Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser ses méthodes et analyses réalisées avec R. </p>
@@ -270,7 +272,7 @@ editor_options:
 <p class="fragment" style="font-size:85%;margin-top:60px;"><span style="color:#4178bc;">**L'ouverture de la science ne se limite pas aux données !**</span> </p>
 
 
-## Caractèristiques ?
+## Caractéristiques ?
 
 <br>
 
@@ -289,10 +291,10 @@ editor_options:
 
 
 
-<p class="fragment" style="font-size:95%;margin-top:65px;">Un type de publication : <span style="color:#4178bc;">**la fiche Rzine**</span> </p>
+<p class="fragment" style="font-size:95%;margin-top:65px;">Un type de publication : <span style="color:#4178bc;"><a href="https://rzine.fr/collection/#publi_rzine">**la fiche Rzine**</a></span> </p>
 
 
-## Fiche Rzine ?
+## Une fiche Rzine ?
 
 
 </br>
@@ -309,7 +311,7 @@ editor_options:
 <p style="padding-top:35px;font-size:75%;text-align:left;">Document qui **présente une méthodologie, un type d’analyse, une fonctionnalité, ou encore le traitement** d’un certain type de données réalisé avec R, **de façon reproductible et didactique** afin d’en faciliter son application pratique.</p>
 
 
-<p style="padding-top:60px;font-size:75%;text-align:left;">Une fiche peut être fortement axée sur un aspect technique ou méthodologique, mais elle doit  **impérativement s'ancrer dans une thématique** des sciences humaines et sociales (et territoirales).</p>
+<p style="padding-top:60px;font-size:75%;text-align:left;">Une fiche peut être fortement axée sur un aspect technique ou méthodologique, mais elle doit  **impérativement s'ancrer dans une thématique** des sciences humaines et sociales (et territoriales).</p>
 </ul>
 </div>
 
@@ -319,10 +321,10 @@ editor_options:
 </div>
 
 
-## Rédiger une fiche ?
+## Rédiger une fiche
 
 
-<li style="font-size:81%;text-align:left;margin-top:45px;">Modèle de mise en page (rmarkddown) fourni par le package <span style="color:#4178bc;">**`Rzine`**</span></li>
+<li style="font-size:81%;text-align:left;margin-top:45px;">Modèle de mise en page (rmarkdown) fourni par le <span style="color:#4178bc;"><a href="https://gitlab.huma-num.fr/rzine/package">package **`Rzine`**</a></span></li>
 
 ```{r, eval=FALSE}
 
@@ -339,55 +341,50 @@ rmarkdown::draft(file = "index.Rmd", template = "readrzine", package = "rzine", 
 <li style="font-size:81%;text-align:left;margin-top:75px;">Règles de mise en page et de soumission expliquées dans [**ce document**](https://rzine-reviews.github.io/documentation/#content)</li>
 
 
-<img src="figure/collect.png" width="600"/ style="margin-top:0px;">
+<img src="figure/collect.png" width="600" style="margin-top:0px;">
 
 
 
 ## Processus de relecture et d'édition
 
-Git !
+<img src="figure/Rzine_06.png" width="550" style="margin-top:10px;">
 
 
 
-<img src="figure/process.png" width="300"/ style="margin-top:0px;">
+## Les premières fiches publiées
 
+</br>
 
-
-## Fiche Rzine
-
-Quatre fiches déjà publiées :
-
-<ul class="xpucsmall">
-> - <a href="https://rzine.fr/docs/20211101_ysebaert_grasland_MTA/index.html">Analyse territoriale multiscalaire</a>, *Ronan Ysebaert* et *Claude Grasland*.
-> - <a href="https://rzine.fr/docs/20191125_ironcurtain/index.html">Le nouveau rideau de fer : un exemple de carte en 2,5D</a>, *Nicolas Lambert*.
-> - <a href="https://rzine.fr/docs/20200526_glecampion_initiation_aux_correlations/index.html">Analyse des corrélations avec easystats</a>, *Grégoire Le Campion*.
-- <a href="https://rzine.fr/docs/20200601_mletexier86_explo_spatiotemporel/index.html" target="_blank">Exploration spatio-temporelle d’objets géographiques ponctuels</a>, *Marion Le Texier*.
+<ul class="pucsmall2" style="margin-top:20px;">
+> - <a href="https://rzine.fr/docs/20211101_ysebaert_grasland_MTA/index.html">Analyse territoriale multiscalaire</a>, *R. Ysebaert* et *C. Grasland*.
+> - <a href="https://rzine.fr/docs/20191125_ironcurtain/index.html">Le nouveau rideau de fer : un exemple de carte en 2,5D</a>, *N. Lambert*.
+> - <a href="https://rzine.fr/docs/20200526_glecampion_initiation_aux_correlations/index.html">Analyse des corrélations avec easystats</a>, *G. Le Campion*.
+- <a href="https://rzine.fr/docs/20200601_mletexier86_explo_spatiotemporel/index.html" target="_blank">Exploration spatio-temporelle d’objets géographiques ponctuels</a>, *M. Le Texier*.
 </ul>
 
+<img src="figure/figure_6.png" alt="drawing" style="width:210px;margin-top:60px;"/>
+<img src="figure/figure_3.png" alt="drawing" style="width:220px;margin-left:20px;margin-top:60px;"/>
+<img src="figure/figure_7.png" alt="drawing" style="width:210px;margin-left:20px;margin-top:60px;"/>
+<img src="figure/figure_5.png" alt="drawing" style="width:205px;margin-left:20px;margin-top:60px;"/>
 
+## Et vous ?
 
-
-
-## Contact
+</br>
+</br>
 
 contact@rzine.fr
 
-Auteur/relecteur et Plus si affinités
 
 
-
-
-
-
-## Diapositives libres (CC BY 3.0)
+## Diapositives libres (CC BY-SA 4.0)
 
 
 <br>
 
 
-<p class="moyp">Consultation :</p>
+<p class="moyp">Diaporama :</p>
 
-<p class="moyp222">https://hpecout.gitpages.huma-num.fr/Intro_R_Rstudio_FR/</p>
+<p class="moyp222">https://huguespecout.github.io/projet_rzine/#/</p>
 
 
 
@@ -396,7 +393,7 @@ Auteur/relecteur et Plus si affinités
 
 <p class="moyp">Code source :</p>
 
-<p class="moyp222">https://gitlab.huma-num.fr/hpecout/Intro_R_Rstudio_FR</p>
+<p class="moyp222">https://github.com/HuguesPecout/projet_rzine</p>
 
 
 <br>
@@ -447,13 +444,7 @@ Auteur/relecteur et Plus si affinités
 ![](figure/markdown.png)
 </div>
 
-## Fiche Rzine (= Rmarkdown)
 
-![](figure/figure_3.png)
-
-## Fiche Rzine (= Rmarkdown)
-
-<img src="figure/figure_5.png" alt="drawing" style="width:800px;"/>
 
 
 
