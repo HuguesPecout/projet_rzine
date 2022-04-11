@@ -283,7 +283,7 @@ editor_options:
 > - Publications <span style="color:#4178bc;">**soumises à comité de lecture**</span>
 > - Processus de <span style="color:#4178bc;">**relecture transparent**</span> sur <span style="color:#4178bc;">**GitHub/GitLab**</span>
 > - Processus de <span style="color:#4178bc;">**d'édition**</span> sur <span style="color:#4178bc;">**GitHub/GitLab**</span>
-> - Publications <span style="color:#4178bc;">**open source**</span> (licences <span style="color:#4178bc;">**MIT**</span> & <span style="color:#4178bc;">**CC BY-SA 4.0**</span>)
+> - Publications <span style="color:#4178bc;">**open source**</span> (licences <span style="color:#4178bc;"><a href="https://opensource.org/licenses/MIT">**MIT**</a></span> & <span style="color:#4178bc;"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">**CC BY-SA 4.0**</a></span>)
 > - Informations + données nécessaires à la <span style="color:#4178bc;">**reproductibilité**</span> fournies
 > - Stockage et diffusion assurés (<span style="color:#4178bc;">**DOI**</span>, <span style="color:#4178bc;">**HAL**</span>, <span style="color:#4178bc;">Nakala</span> ?)
 </ul>
@@ -351,14 +351,14 @@ rmarkdown::draft(file = "index.Rmd", template = "readrzine", package = "rzine", 
 
 
 
-## Les premières fiches publiées
+## Premières fiches publiées
 
 </br>
 
 <ul class="pucsmall2" style="margin-top:20px;">
-> - <a href="https://rzine.fr/docs/20211101_ysebaert_grasland_MTA/index.html">Analyse territoriale multiscalaire</a>, *R. Ysebaert* et *C. Grasland*.
-> - <a href="https://rzine.fr/docs/20191125_ironcurtain/index.html">Le nouveau rideau de fer : un exemple de carte en 2,5D</a>, *N. Lambert*.
-> - <a href="https://rzine.fr/docs/20200526_glecampion_initiation_aux_correlations/index.html">Analyse des corrélations avec easystats</a>, *G. Le Campion*.
+> - <a href="https://rzine.fr/docs/20211101_ysebaert_grasland_MTA/index.html" target="_blank">Analyse territoriale multiscalaire</a>, *R. Ysebaert* et *C. Grasland*.
+> - <a href="https://rzine.fr/docs/20191125_ironcurtain/index.html" target="_blank">Le nouveau rideau de fer : un exemple de carte en 2,5D</a>, *N. Lambert*.
+> - <a href="https://rzine.fr/docs/20200526_glecampion_initiation_aux_correlations/index.html" target="_blank">Analyse des corrélations avec easystats</a>, *G. Le Campion*.
 - <a href="https://rzine.fr/docs/20200601_mletexier86_explo_spatiotemporel/index.html" target="_blank">Exploration spatio-temporelle d’objets géographiques ponctuels</a>, *M. Le Texier*.
 </ul>
 
@@ -367,13 +367,119 @@ rmarkdown::draft(file = "index.Rmd", template = "readrzine", package = "rzine", 
 <img src="figure/figure_7.png" alt="drawing" style="width:210px;margin-left:20px;margin-top:60px;"/>
 <img src="figure/figure_5.png" alt="drawing" style="width:205px;margin-left:20px;margin-top:60px;"/>
 
-## Et vous ?
+## À vous de jouer !
 
 </br>
 </br>
 
-contact@rzine.fr
+Documentation : [*Publier une fiche Rzine*](https://rzine-reviews.github.io/documentation/)
 
+</br>
+
+Soumission : [*contact@rzine.fr*](mailto:contact@rzine.fr)
+
+
+
+
+
+# {data-background="figure/exo.png" data-background-size="1000px"}
+
+
+<h2>**Exercice !**</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## R, Rstudio & package Rzine  
+
+
+<p class="smallbluep">A. Installez le package Rzine</p>
+
+```r 
+install.packages("remotes")
+remotes::install_gitlab("rzine/package", host = "https://gitlab.huma-num.fr/", force = TRUE)
+library("rzine")
+```
+
+<p class="smallpcenter1"><img src="figure/alert.png" width="30"/ style="margin-top:0px;margin-bottom:-7px;margin-right:8px;">*Sur Windows, il est nécessaire d'installer [rtools](https://cran.r-project.org/bin/windows/Rtools/) pour utiliser le package `remotes`*.</p>
+
+
+
+<p class="smallbluep">B. Créez un projet Rstudio</p>
+
+<p class="smallpcenter11">Dans la barre de menu Rstudio, cliquez sur ***File***/***New Project***/***New Directory***/***New Project***....</p>
+
+<p class="smallbluep">C. Générez une fiche vierge :</p>
+
+```r 
+rmarkdown::draft(file = "index.Rmd", 
+                 template = "readrzine", 
+                 package = "rzine", 
+                 create_dir = FALSE, 
+                 edit = FALSE)
+```
+
+<p class="smallpcenter1">En clic-bouton : ***File***/***New File***/***R Markdown***/***From Template***, choisir '***readrzine - Template pour fiche rzine***'</p>
+
+## Fichiers & répertoires associés à une fiche
+
+
+<img src="figure/fiche_folder.png" alt="drawing" style="width:250px;"/>
+
+
+## Tricotez (knitez) !
+
+<img src="figure/new_fiche.png" alt="drawing" style="width:1100px;"/>
+
+
+## Sortie HTML
+
+<img src="figure/final.png" alt="drawing" style="width:1100px;"/>
+
+
+## À vous de jouer !
+
+</br>
+</br>
+
+Documentation : [*Publier une fiche Rzine*](https://rzine-reviews.github.io/documentation/)
+
+</br>
+
+Soumission : [*contact@rzine.fr*](mailto:contact@rzine.fr)
+
+
+# Annexes
+
+
+## Publication Notebook (Rmarkdown)
+
+<img src="figure/notebook.png" style="margin-top:40px;" width="750"/>
+
+## Exemple Rmarkdown
+
+<div id="codermd">
+
+<p class="smallpcenter">Fichier Rmarkdown (source) :</p>
+
+```{r, file = 'figure/ex2.Rmd', eval=FALSE}
+```
+</div>
+
+<div id="codehtml">
+
+<p class="smallpcenter">Fichier HTML (sortie) :</p>
+
+![](figure/markdown.png)
+</div>
 
 
 ## Diapositives libres (CC BY-SA 4.0)
@@ -400,49 +506,6 @@ contact@rzine.fr
 
 
 
-
-
-
-
-# {data-background="figure/Rzine.png" data-background-size="300px"}
-
-
-<h2>**Bonus**</h2>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-## Publication Notebook (Rmarkdown)
-
-<img src="figure/notebook.png" style="margin-top:40px;" width="750"/>
-
-## Exemple Rmarkdown
-
-<div id="codermd">
-
-<p class="smallpcenter">Fichier Rmarkdown (source) :</p>
-
-```{r, file = 'figure/ex2.Rmd', eval=FALSE}
-```
-</div>
-
-<div id="codehtml">
-
-<p class="smallpcenter">Fichier HTML (sortie) :</p>
-
-![](figure/markdown.png)
-</div>
 
 
 

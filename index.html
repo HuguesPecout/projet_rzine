@@ -752,7 +752,7 @@ Signalement :</br><a href="mailto:contact@rzine.fr" class="email">contact@rzine.
 <li>Publications <span style="color:#4178bc;"><strong>soumises à comité de lecture</strong></span></li>
 <li>Processus de <span style="color:#4178bc;"><strong>relecture transparent</strong></span> sur <span style="color:#4178bc;"><strong>GitHub/GitLab</strong></span></li>
 <li>Processus de <span style="color:#4178bc;"><strong>d’édition</strong></span> sur <span style="color:#4178bc;"><strong>GitHub/GitLab</strong></span></li>
-<li>Publications <span style="color:#4178bc;"><strong>open source</strong></span> (licences <span style="color:#4178bc;"><strong>MIT</strong></span> &amp; <span style="color:#4178bc;"><strong>CC BY-SA 4.0</strong></span>)</li>
+<li>Publications <span style="color:#4178bc;"><strong>open source</strong></span> (licences <span style="color:#4178bc;"><a href="https://opensource.org/licenses/MIT"><strong>MIT</strong></a></span> &amp; <span style="color:#4178bc;"><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"><strong>CC BY-SA 4.0</strong></a></span>)</li>
 <li>Informations + données nécessaires à la <span style="color:#4178bc;"><strong>reproductibilité</strong></span> fournies</li>
 <li>Stockage et diffusion assurés (<span style="color:#4178bc;"><strong>DOI</strong></span>, <span style="color:#4178bc;"><strong>HAL</strong></span>, <span style="color:#4178bc;">Nakala</span> ?)</li>
 </ul>
@@ -798,23 +798,133 @@ Règles de mise en page et de soumission expliquées dans <a href="https://rzine
 <h2>Processus de relecture et d’édition</h2>
 <p><img src="figure/Rzine_06.png" width="550" style="margin-top:10px;"></p>
 </section>
-<section id="les-premières-fiches-publiées" class="slide level2">
-<h2>Les premières fiches publiées</h2>
+<section id="premières-fiches-publiées" class="slide level2">
+<h2>Premières fiches publiées</h2>
 <p></br></p>
 <ul class="pucsmall2" style="margin-top:20px;">
 <ul>
-<li><a href="https://rzine.fr/docs/20211101_ysebaert_grasland_MTA/index.html">Analyse territoriale multiscalaire</a>, <em>R. Ysebaert</em> et <em>C. Grasland</em>.</li>
-<li><a href="https://rzine.fr/docs/20191125_ironcurtain/index.html">Le nouveau rideau de fer : un exemple de carte en 2,5D</a>, <em>N. Lambert</em>.</li>
-<li><a href="https://rzine.fr/docs/20200526_glecampion_initiation_aux_correlations/index.html">Analyse des corrélations avec easystats</a>, <em>G. Le Campion</em>.</li>
+<li><a href="https://rzine.fr/docs/20211101_ysebaert_grasland_MTA/index.html" target="_blank">Analyse territoriale multiscalaire</a>, <em>R. Ysebaert</em> et <em>C. Grasland</em>.</li>
+<li><a href="https://rzine.fr/docs/20191125_ironcurtain/index.html" target="_blank">Le nouveau rideau de fer : un exemple de carte en 2,5D</a>, <em>N. Lambert</em>.</li>
+<li><a href="https://rzine.fr/docs/20200526_glecampion_initiation_aux_correlations/index.html" target="_blank">Analyse des corrélations avec easystats</a>, <em>G. Le Campion</em>.</li>
 <li><a href="https://rzine.fr/docs/20200601_mletexier86_explo_spatiotemporel/index.html" target="_blank">Exploration spatio-temporelle d’objets géographiques ponctuels</a>, <em>M. Le Texier</em>.</li>
 </ul>
 </ul>
 <p><img src="figure/figure_6.png" alt="drawing" style="width:210px;margin-top:60px;"/> <img src="figure/figure_3.png" alt="drawing" style="width:220px;margin-left:20px;margin-top:60px;"/> <img src="figure/figure_7.png" alt="drawing" style="width:210px;margin-left:20px;margin-top:60px;"/> <img src="figure/figure_5.png" alt="drawing" style="width:205px;margin-left:20px;margin-top:60px;"/></p>
 </section>
-<section id="et-vous" class="slide level2">
-<h2>Et vous ?</h2>
+<section id="à-vous-de-jouer" class="slide level2">
+<h2>À vous de jouer !</h2>
 <p></br> </br></p>
-<p><a href="mailto:contact@rzine.fr" class="email">contact@rzine.fr</a></p>
+<p>Documentation : <a href="https://rzine-reviews.github.io/documentation/"><em>Publier une fiche Rzine</em></a></p>
+<p></br></p>
+<p>Soumission : <a href="mailto:contact@rzine.fr"><em>contact@rzine.fr</em></a></p>
+</section></section>
+<section>
+<section id="section-3" class="title-slide slide level1" data-background="figure/exo.png" data-background-size="1000px">
+<h1 data-background="figure/exo.png" data-background-size="1000px"></h1>
+<h2>
+<strong>Exercice !</strong>
+</h2>
+<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br></p>
+</section>
+<section id="r-rstudio-package-rzine" class="slide level2">
+<h2>R, Rstudio &amp; package Rzine</h2>
+<p class="smallbluep">
+A. Installez le package Rzine
+</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;remotes&quot;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_gitlab</span>(<span class="st">&quot;rzine/package&quot;</span>, <span class="at">host =</span> <span class="st">&quot;https://gitlab.huma-num.fr/&quot;</span>, <span class="at">force =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;rzine&quot;</span>)</span></code></pre></div>
+<p class="smallpcenter1">
+<img src="figure/alert.png" width="30"/ style="margin-top:0px;margin-bottom:-7px;margin-right:8px;"><em>Sur Windows, il est nécessaire d’installer <a href="https://cran.r-project.org/bin/windows/Rtools/">rtools</a> pour utiliser le package <code>remotes</code></em>.
+</p>
+<p class="smallbluep">
+B. Créez un projet Rstudio
+</p>
+<p class="smallpcenter11">
+Dans la barre de menu Rstudio, cliquez sur <strong><em>File</em></strong>/<strong><em>New Project</em></strong>/<strong><em>New Directory</em></strong>/<strong><em>New Project</em></strong>….
+</p>
+<p class="smallbluep">
+C. Générez une fiche vierge :
+</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>rmarkdown<span class="sc">::</span><span class="fu">draft</span>(<span class="at">file =</span> <span class="st">&quot;index.Rmd&quot;</span>, </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">template =</span> <span class="st">&quot;readrzine&quot;</span>, </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">package =</span> <span class="st">&quot;rzine&quot;</span>, </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>                 <span class="at">create_dir =</span> <span class="cn">FALSE</span>, </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>                 <span class="at">edit =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<p class="smallpcenter1">
+En clic-bouton : <strong><em>File</em></strong>/<strong><em>New File</em></strong>/<strong><em>R Markdown</em></strong>/<strong><em>From Template</em></strong>, choisir ‘<strong><em>readrzine - Template pour fiche rzine</em></strong>’
+</p>
+</section>
+<section id="fichiers-répertoires-associés-à-une-fiche" class="slide level2">
+<h2>Fichiers &amp; répertoires associés à une fiche</h2>
+<p><img src="figure/fiche_folder.png" alt="drawing" style="width:250px;"/></p>
+</section>
+<section id="tricotez-knitez" class="slide level2">
+<h2>Tricotez (knitez) !</h2>
+<p><img src="figure/new_fiche.png" alt="drawing" style="width:1100px;"/></p>
+</section>
+<section id="sortie-html" class="slide level2">
+<h2>Sortie HTML</h2>
+<p><img src="figure/final.png" alt="drawing" style="width:1100px;"/></p>
+</section>
+<section id="à-vous-de-jouer-1" class="slide level2">
+<h2>À vous de jouer !</h2>
+<p></br> </br></p>
+<p>Documentation : <a href="https://rzine-reviews.github.io/documentation/"><em>Publier une fiche Rzine</em></a></p>
+<p></br></p>
+<p>Soumission : <a href="mailto:contact@rzine.fr"><em>contact@rzine.fr</em></a></p>
+</section></section>
+<section>
+<section id="annexes" class="title-slide slide level1">
+<h1>Annexes</h1>
+
+</section>
+<section id="publication-notebook-rmarkdown" class="slide level2">
+<h2>Publication Notebook (Rmarkdown)</h2>
+<p><img src="figure/notebook.png" style="margin-top:40px;" width="750"/></p>
+</section>
+<section id="exemple-rmarkdown" class="slide level2">
+<h2>Exemple Rmarkdown</h2>
+<div id="codermd">
+<p class="smallpcenter">
+Fichier Rmarkdown (source) :
+</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">&quot;Mon premier Rmarkdown&quot;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">&quot;Hugues &amp; Timothée&quot;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">&quot;`r Sys.Date()`&quot;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>output<span class="sc">:</span> html_document</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="sc">!</span>[](header.png)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="do">## R Markdown</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>This is an R Markdown document. Markdown is a simple formatting syntax <span class="cf">for</span> authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <span class="sc">&lt;</span>http<span class="sc">:</span><span class="er">//</span>rmarkdown.rstudio.com<span class="sc">&gt;</span>.</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>When you click the <span class="sc">**</span>Knit<span class="sc">**</span> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this<span class="sc">:</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="st">```</span><span class="at">{r chunk1, eval=TRUE, include=TRUE, echo=TRUE}</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="at">result &lt;- 1 + 7</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="at">print(result)</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="st">```</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="do">## Including Plots</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>You can also embed plots, <span class="cf">for</span> example<span class="sc">:</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="st">```</span><span class="at">{r pressure, echo=FALSE, fig.height=4, fig.width=10}</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="at">plot(x = c(1,3,7,4,6), y = c(6,2,1,3,8), </span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="at">     pch = 20, cex = 3, col= &quot;red&quot;,</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="at">     xlab = &quot;X&quot;, ylab = &quot;Y&quot;)    </span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="st">```</span></span></code></pre></div>
+</div>
+<div id="codehtml">
+<p class="smallpcenter">
+Fichier HTML (sortie) :
+</p>
+<p><img data-src="figure/markdown.png" /></p>
+</div>
 </section>
 <section id="diapositives-libres-cc-by-sa-4.0" class="slide level2">
 <h2>Diapositives libres (CC BY-SA 4.0)</h2>
@@ -833,61 +943,6 @@ Code source :
 <a href="https://github.com/HuguesPecout/projet_rzine" class="uri">https://github.com/HuguesPecout/projet_rzine</a>
 </p>
 <p><br></p>
-</section></section>
-<section>
-<section id="section-3" class="title-slide slide level1" data-background="figure/Rzine.png" data-background-size="300px">
-<h1 data-background="figure/Rzine.png" data-background-size="300px"></h1>
-<h2>
-<strong>Bonus</strong>
-</h2>
-<p><br> <br> <br> <br> <br> <br> <br> <br> <br></p>
-</section>
-<section id="publication-notebook-rmarkdown" class="slide level2">
-<h2>Publication Notebook (Rmarkdown)</h2>
-<p><img src="figure/notebook.png" style="margin-top:40px;" width="750"/></p>
-</section>
-<section id="exemple-rmarkdown" class="slide level2">
-<h2>Exemple Rmarkdown</h2>
-<div id="codermd">
-<p class="smallpcenter">
-Fichier Rmarkdown (source) :
-</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">&quot;Mon premier Rmarkdown&quot;</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">&quot;Hugues &amp; Timothée&quot;</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">&quot;`r Sys.Date()`&quot;</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>output<span class="sc">:</span> html_document</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="sc">!</span>[](header.png)</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="do">## R Markdown</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>This is an R Markdown document. Markdown is a simple formatting syntax <span class="cf">for</span> authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <span class="sc">&lt;</span>http<span class="sc">:</span><span class="er">//</span>rmarkdown.rstudio.com<span class="sc">&gt;</span>.</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>When you click the <span class="sc">**</span>Knit<span class="sc">**</span> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this<span class="sc">:</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="st">```</span><span class="at">{r chunk1, eval=TRUE, include=TRUE, echo=TRUE}</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="at">result &lt;- 1 + 7</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="at">print(result)</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="st">```</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="do">## Including Plots</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>You can also embed plots, <span class="cf">for</span> example<span class="sc">:</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="st">```</span><span class="at">{r pressure, echo=FALSE, fig.height=4, fig.width=10}</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="at">plot(x = c(1,3,7,4,6), y = c(6,2,1,3,8), </span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="at">     pch = 20, cex = 3, col= &quot;red&quot;,</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="at">     xlab = &quot;X&quot;, ylab = &quot;Y&quot;)    </span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="st">```</span></span></code></pre></div>
-</div>
-<div id="codehtml">
-<p class="smallpcenter">
-Fichier HTML (sortie) :
-</p>
-<p><img data-src="figure/markdown.png" /></p>
-</div>
 </section></section>
     </div>
   </div>

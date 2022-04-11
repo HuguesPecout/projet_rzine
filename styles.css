@@ -90,6 +90,10 @@ p,ul,li,td {
 	font-size: 0.6em;
 }
 
+.reveal .slides .xpucsmall3 {
+  text-align: left;
+	font-size: 0.6em;
+}
 
 
 
@@ -188,6 +192,20 @@ p,ul,li,td {
 }
 
 
+.reveal .slides .smallpcenter1 {
+  text-align: left;
+  margin-top:-20px;
+  margin-bottom: 30px;
+	font-size: 0.5em;
+}
+
+.reveal .slides .smallpcenter11 {
+  text-align: left;
+  margin-top:40px;
+  margin-bottom: 30px;
+	font-size: 0.5em;
+}
+
 .reveal .slides .smallpcenter2 {
   text-align: center;
 	font-size: 0.6em;
@@ -218,6 +236,8 @@ p,ul,li,td {
 
 .reveal .slides .smallbluep {
   text-align: left;
+  margin-top: 50px;
+  margin-bottom:-25px;
 	font-size: 0.7em;
 	color: #6f9cd1; 
 }
