@@ -61,14 +61,14 @@ editor_options:
 
 ## Projet exploratoire de la FR CIST
 
-<p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : **produire sur de la documentation sur R**.</p> 
+<p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : **produire de la documentation sur R**.</p> 
 
 <img src="figure/core_team.png" width="600"/ style="margin-top:40px;margin-bottom:25px;">
 
 <p class="fragment" style="font-size:80%;">**Objectif :** <span style="color:#4178bc;">Contribuer à l'apprentissage et à la pratique de R en SHS, en favorisant le partage, la production et la diffusion de ressources.</span></p>
 
 
-## Faire le Bilan pour innover
+## Faire le bilan pour innover
 
 <p class="medpcenter" style="margin-top:50px;">Communauté d'utilisateur.rice.s et ressources disponibles sur R ?</p>
 
@@ -78,7 +78,7 @@ editor_options:
 <p class="smallpcenter" style="margin-top:0px;">Points forts</p>
 <ul class="xpucsmall">
 > - Communauté internationale très active
-> - Das acteurs français notables 
+> - Des acteurs français notables 
 > - Langage commun à plusieurs disciplines
 > - Beaucoup de ressources en libre accès
 > - De très bonnes initiatives existent
@@ -91,7 +91,7 @@ editor_options:
 <ul class="xpucsmall">
 > - Ressources parsemées, peu visibles
 > - Beaucoup en anglais, moins en français
-> - Cloisonnée par discipline, institutions...
+> - Cloisonnées par discipline, institutions...
 > - Ressources généralistes vs spécialisées
 </ul>
 </div>
@@ -185,7 +185,7 @@ editor_options:
 </br>
 
 <div id="left3">
-<img src="figure/Open_Source.png" width="160"/ style="margin-top:50px;">
+<img src="figure/lock4.png" width="180"/ style="margin-top:50px;">
 </div>
 
 <div id="right33" style="margin-top:00px;">
@@ -265,11 +265,11 @@ editor_options:
 <p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**3.**</span> Contribuer à la **diffusion de méthodes innovantes ou restées confidentielles, et des bonnes pratiques en matière de reproductibilité**.</p>
 
 
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**4.**</span> Participer à la démocratisation de l'**utilisation de la programmation lettrée** et des **logiciels décentralisé de versionnage** en SHS.</p>
+<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**4.**</span> Participer à la démocratisation de l'**utilisation de la programmation lettrée** (R Markdown) et des **logiciels décentralisés de versionnage** (Git) en SHS.</p>
 
 
 
-<p class="fragment" style="font-size:85%;margin-top:60px;"><span style="color:#4178bc;">**L'ouverture de la science ne se limite pas aux données !**</span> </p>
+<p class="fragment" style="font-size:83%;margin-top:60px;"><span style="color:#4178bc;">**L'ouverture de la science ne se limite pas aux données et aux articles !**</span> </p>
 
 
 ## Caractéristiques ?
@@ -311,7 +311,7 @@ editor_options:
 <p style="padding-top:35px;font-size:75%;text-align:left;">Document qui **présente une méthodologie, un type d’analyse, une fonctionnalité, ou encore le traitement** d’un certain type de données réalisé avec R, **de façon reproductible et didactique** afin d’en faciliter son application pratique.</p>
 
 
-<p style="padding-top:60px;font-size:75%;text-align:left;">Une fiche peut être fortement axée sur un aspect technique ou méthodologique, mais elle doit  **impérativement s'ancrer dans une thématique** des sciences humaines et sociales (et territoriales).</p>
+<p style="padding-top:60px;font-size:75%;text-align:left;">Une fiche peut être fortement axée sur un aspect technique ou méthodologique, mais elle doit  **impérativement s'ancrer dans une thématique** des sciences humaines et sociales.</p>
 </ul>
 </div>
 
@@ -409,7 +409,7 @@ remotes::install_gitlab("rzine/package", host = "https://gitlab.huma-num.fr/", f
 library("rzine")
 ```
 
-<p class="smallpcenter1"><img src="figure/alert.png" width="30"/ style="margin-top:0px;margin-bottom:-7px;margin-right:8px;">*Sur Windows, il est nécessaire d'installer [rtools](https://cran.r-project.org/bin/windows/Rtools/) pour utiliser le package `remotes`*.</p>
+<p class="smallpcenter1"><img src="figure/alert.png" width="30"/ style="margin-top:0px;margin-bottom:-7px;margin-right:8px;">*Sur Windows, il peut être nécessaire d'installer [rtools](https://cran.r-project.org/bin/windows/Rtools/) pour utiliser le package `remotes`*.</p>
 
 
 
