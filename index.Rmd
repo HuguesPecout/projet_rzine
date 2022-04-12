@@ -1,7 +1,7 @@
 ---
 title: <h1 class="first">Rzine</h1>
 author: <h2 class="place">Pour la diffusion et le partage de ressources<br>sur la pratique de R en sciences humaines et sociales</h2>
-date: <img src="figure/Rzine.png" width="240" style="margin-bottom:0px;"/><h2 class="place2"><i>Midis de Géotéca - 12 Avril 2022</i></h2><p class="name">Hugues Pecout - Timothée Giraud</p><img src="figure/riate.png" width="115" style="float:left;margin-top:40px;"/><img src="figure/cnrs.png" width="70" style="float:center"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="70"/>
+date: <img src="figure/Rzine.png" width="240" style="margin-bottom:0px;"/><h2 class="place2"><i>Midis de Géotéca - 12 Avril 2022</i></h2><p class="name">Hugues Pecout, Timothée Giraud & al.</p><img src="figure/riate.png" width="115" style="float:left;margin-top:40px;"/><img src="figure/cnrs.png" width="70" style="float:center"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="70"/>
 output: 
   revealjs::revealjs_presentation:
     self_contained: FALSE
@@ -61,7 +61,7 @@ editor_options:
 
 ## Projet exploratoire de la FR CIST
 
-<p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : **produire de la documentation sur R**.</p> 
+<p class="smallpcenter" style="margin-top:50px;">Initié par 5 membres de la Fédération de Recherche partageant<br>une envie commune : **produire collectivement de la documentation sur R**.</p> 
 
 <img src="figure/core_team.png" width="600"/ style="margin-top:40px;margin-bottom:25px;">
 
@@ -255,22 +255,6 @@ editor_options:
 <p class="smallpcenter">*Partager des méthodes et analyses reproductibles réalisées avec R*</p>
 
 
-## Pour quoi faire ?
-
-
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**1.**</span> **Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser ses méthodes et analyses réalisées avec R. </p>
-
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**2.**</span> Participer à la **montée en compétence collective de la pratique de R** en SHS et favoriser les **échanges entre disciplines**.</p>
-
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**3.**</span> Contribuer à la **diffusion de méthodes innovantes ou restées confidentielles, et des bonnes pratiques en matière de reproductibilité**.</p>
-
-
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**4.**</span> Participer à la démocratisation de l'**utilisation de la programmation lettrée** (R Markdown) et des **logiciels décentralisés de versionnage** (Git) en SHS.</p>
-
-
-
-<p class="fragment" style="font-size:83%;margin-top:60px;"><span style="color:#4178bc;">**L'ouverture de la science ne se limite pas aux données et aux articles !**</span> </p>
-
 
 ## Caractéristiques ?
 
@@ -292,6 +276,25 @@ editor_options:
 
 
 <p class="fragment" style="font-size:95%;margin-top:65px;">Un type de publication : <span style="color:#4178bc;"><a href="https://rzine.fr/collection/#publi_rzine">**la fiche Rzine**</a></span> </p>
+
+## Pour quoi faire ?
+
+
+<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**1.**</span> **Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser ses méthodes et analyses réalisées avec R. </p>
+
+<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**2.**</span> Participer à la **montée en compétence collective de la pratique de R** en SHS et favoriser les **échanges entre disciplines**.</p>
+
+<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**3.**</span> Contribuer à la **diffusion de méthodes innovantes ou restées confidentielles, et des bonnes pratiques en matière de reproductibilité**.</p>
+
+
+<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**4.**</span> Participer à la démocratisation de l'**utilisation de la programmation lettrée** (R Markdown) et des **logiciels décentralisés de versionnage** (Git) en SHS.</p>
+
+
+
+<p class="fragment" style="font-size:83%;margin-top:60px;"><span style="color:#4178bc;">**L'ouverture de la science ne se limite pas aux données et aux articles !**</span> </p>
+
+
+
 
 
 ## Une fiche Rzine ?
@@ -323,8 +326,14 @@ editor_options:
 
 ## Rédiger une fiche
 
+<li style="font-size:81%;text-align:left;margin-top:45px;">Règles de mise en page et de soumission expliquées dans [**ce document**](https://rzine-reviews.github.io/documentation/#content)</li>
 
-<li style="font-size:81%;text-align:left;margin-top:45px;">Modèle de mise en page (rmarkdown) fourni par le <span style="color:#4178bc;"><a href="https://gitlab.huma-num.fr/rzine/package">package **`Rzine`**</a></span></li>
+
+<img src="figure/collect.png" width="600" style="margin-top:0px;">
+
+
+
+<li style="font-size:81%;text-align:left;margin-top30px;">Modèle de mise en page (rmarkdown) fourni par le <span style="color:#4178bc;"><a href="https://gitlab.huma-num.fr/rzine/package">package **`Rzine`**</a></span></li>
 
 ```{r, eval=FALSE}
 
@@ -338,10 +347,6 @@ rmarkdown::draft(file = "index.Rmd", template = "readrzine", package = "rzine", 
 
 
 
-<li style="font-size:81%;text-align:left;margin-top:75px;">Règles de mise en page et de soumission expliquées dans [**ce document**](https://rzine-reviews.github.io/documentation/#content)</li>
-
-
-<img src="figure/collect.png" width="600" style="margin-top:0px;">
 
 
 
