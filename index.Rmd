@@ -1,7 +1,7 @@
 ---
 title: <h1 class="first">Rzine</h1>
 author: <h2 class="place">Pour la diffusion et le partage de ressources<br>sur la pratique de R en sciences humaines et sociales</h2>
-date: <img src="figure/Rzine.png" width="240" style="margin-bottom:0px;"/><h2 class="place2"><i>Midis de Géotéca - 12 Avril 2022</i></h2><p class="name">Hugues Pecout, Timothée Giraud & al.</p><img src="figure/riate.png" width="115" style="float:left;margin-top:40px;"/><img src="figure/cnrs.png" width="70" style="float:center"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="70"/>
+date: <img src="figure/Rzine.png" width="240" style="margin-bottom:0px;"/><h2 class="place2"><i>Journées annuelles du réseau Mate-shs - 17 mai 2022</i></h2><p class="name">Hugues Pecout, Timothée Giraud & al.</p><img src="figure/riate.png" width="115" style="float:left;margin-top:40px;"/><img src="figure/cnrs.png" width="70" style="float:center"/><img src="figure/cist-logo-bleu_sur_blanc.png" style="float:right" width="70"/>
 output: 
   revealjs::revealjs_presentation:
     self_contained: FALSE
