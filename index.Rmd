@@ -384,6 +384,27 @@ Documentation : [*Publier une fiche Rzine*](https://rzine-reviews.github.io/docu
 Soumission : [*contact@rzine.fr*](mailto:contact@rzine.fr)
 
 
+## Diapositives libres (CC BY-SA 4.0)
+
+
+<br>
+
+
+<p class="moyp">Diaporama :</p>
+
+<p class="moyp222">https://huguespecout.github.io/projet_rzine/#/</p>
+
+
+
+
+<br>
+
+<p class="moyp">Code source :</p>
+
+<p class="moyp222">https://github.com/HuguesPecout/projet_rzine</p>
+
+
+<br>
 
 
 
