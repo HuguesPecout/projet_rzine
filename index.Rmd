@@ -280,14 +280,13 @@ editor_options:
 ## Pour quoi faire ?
 
 
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**1.**</span> **Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser ses méthodes et analyses réalisées avec R. </p>
+<p  style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**1.**</span> **Offrir un espace de publication** innovant qui permet à tout·te·s de valoriser, partager et diffuser ses méthodes et analyses réalisées avec R. </p>
 
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**2.**</span> Participer à la **montée en compétence collective de la pratique de R** en SHS et favoriser les **échanges entre disciplines**.</p>
+<p  style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**2.**</span> Participer à la **montée en compétence collective de la pratique de R** en SHS et favoriser les **échanges entre disciplines**.</p>
 
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**3.**</span> Contribuer à la **diffusion de méthodes innovantes ou restées confidentielles, et des bonnes pratiques en matière de reproductibilité**.</p>
+<p  style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**3.**</span> Contribuer à la **diffusion de méthodes innovantes ou restées confidentielles, et des bonnes pratiques en matière de reproductibilité**.</p>
 
-
-<p class="fragment" style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**4.**</span> Participer à la démocratisation de l'**utilisation de la programmation lettrée** (R Markdown) et des **logiciels décentralisés de versionnage** (Git) en SHS.</p>
+<p  style="font-size:75%;margin-top:50px;"><span style="color:#4178bc;">**4.**</span> Participer à la démocratisation de l'**utilisation de la programmation lettrée** (R Markdown) et des **logiciels décentralisés de versionnage** (Git) en SHS.</p>
 
 
 
@@ -384,7 +383,9 @@ Documentation : [*Publier une fiche Rzine*](https://rzine-reviews.github.io/docu
 Soumission : [*contact@rzine.fr*](mailto:contact@rzine.fr)
 
 
-## Diapositives libres (CC BY-SA 4.0)
+[<img src="figure/twitter.png" width="45"/ style="margin-top:150px;margin-bottom:-10px;margin-right:10px;">](https://gitlab.huma-num.fr/rzine/site)@rzine_shs
+
+## Diapositives libres (CC BY-SA 4.0) 
 
 
 <br>
@@ -405,6 +406,8 @@ Soumission : [*contact@rzine.fr*](mailto:contact@rzine.fr)
 
 
 <br>
+
+
 
 
 
@@ -483,55 +486,8 @@ Documentation : [*Publier une fiche Rzine*](https://rzine-reviews.github.io/docu
 Soumission : [*contact@rzine.fr*](mailto:contact@rzine.fr)
 
 
-# Annexes
 
-
-## Publication Notebook (Rmarkdown)
-
-<img src="figure/notebook.png" style="margin-top:40px;" width="750"/>
-
-## Exemple Rmarkdown
-
-<div id="codermd">
-
-<p class="smallpcenter">Fichier Rmarkdown (source) :</p>
-
-```{r, file = 'figure/ex2.Rmd', eval=FALSE}
-```
-</div>
-
-<div id="codehtml">
-
-<p class="smallpcenter">Fichier HTML (sortie) :</p>
-
-![](figure/markdown.png)
-</div>
-
-
-## Diapositives libres (CC BY-SA 4.0)
-
-
-<br>
-
-
-<p class="moyp">Diaporama :</p>
-
-<p class="moyp222">https://huguespecout.github.io/projet_rzine/#/</p>
-
-
-
-
-<br>
-
-<p class="moyp">Code source :</p>
-
-<p class="moyp222">https://github.com/HuguesPecout/projet_rzine</p>
-
-
-<br>
-
-
-
+[<img src="figure/twitter.png" width="45"/ style="margin-top:150px;margin-bottom:-10px;margin-right:10px;">](https://gitlab.huma-num.fr/rzine/site)@rzine_shs
 
 
 
